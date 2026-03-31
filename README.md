@@ -4,9 +4,10 @@ Script shell pour renommer le nom d’une piste dans des fichiers MKV sans remux
 
 ---
 
-## 📁 Fichier du dépôt
+## 📁 Fichiers du dépôt
 
-- `rename-mkv-track.sh` – script shell compatible Linux, macOS et Windows via Git Bash ou WSL
+- `rename-mkv-track.sh` – script shell pour Linux, macOS et Windows via Git Bash ou WSL
+- `rename-mkv-track.bat` – script batch pour Windows
 
 ---
 
@@ -36,14 +37,20 @@ Tu peux adapter cette valeur dans le script selon la piste que tu souhaites modi
 
 ## ▶️ Utilisation
 
-Place tes fichiers `.mkv` dans le dossier de travail, puis exécute le script depuis ce dossier.
+Place tes fichiers `.mkv` dans le dossier de travail, puis exécute le script adapté à ton système.
+
+### 🐧🍎 Linux / macOS / Windows (Git Bash ou WSL)
 
 ```bash
 chmod +x rename-mkv-track.sh
 ./rename-mkv-track.sh
 ```
 
----
+### 🪟 Windows
+
+```bat
+rename-mkv-track.bat
+```
 
 ## 🛠️ Personnalisation
 
